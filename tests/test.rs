@@ -1,5 +1,4 @@
-extern crate test;
-use super::*;
+use tokiobeam_channel::*;
 use core::pin::Pin;
 use core::task::{Context, Poll};
 use futures::future;
